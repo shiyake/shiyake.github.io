@@ -40,8 +40,8 @@ timezone:      null
 
 #Site config
 title: shiyake
-description: java技术文章
-keywords: Java
+description: php/java技术文章
+keywords: Java php
 #url: http://9leg.com
 feed: /atom.xml
 favicon: /images/shortcut.jpg
@@ -66,8 +66,8 @@ author:
     imageLink: /images/header.jpg
     simpleIntro: I Have Some Dreams 
     detailIntro:
-      <p>广告界的程序猿</p>
-      <p>主要使用Java,会一点Android,正在学习Scala[真是难学...].</p>
+      <p>希望具有的程序猿的能力，并且……</p>
+      <p>主要使用php,会一点Android,正在学习java[真是难学...].</p>
       <p></p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
@@ -124,7 +124,7 @@ disqus:
   #id: piznblog
 
 duoshuo:
-  config: true
+  config: false
   #id: 9leg
 
 #baidu share config
