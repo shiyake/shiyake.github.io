@@ -124,7 +124,7 @@ disqus:
   #id: piznblog
 
 duoshuo:
-  config: false
+  config: true
   id: 6245831695589705000
 
 #baidu share config
