@@ -11,14 +11,14 @@ category: "java"
 
 在Java中存在两种绑定方式，一种为静态绑定，又称作早期绑定。另一种就是动态绑定，亦称为后期绑定。
 
-###区别对比
+###  区别对比
 
 * 静态绑定发生在编译时期，动态绑定发生在运行时
 *  使用private或static或final修饰的变量或者方法，使用静态绑定。而虚方法（可以被子类重写的方法）则会根据运行时的对象进行动态绑定。
 * 静态绑定使用类信息来完成，而动态绑定则需要使用对象信息来完成。
 * 重载(Overload)的方法使用静态绑定完成，而重写(Override)的方法则使用动态绑定完成。
 
-###重载方法的示例
+###  重载方法的示例
 
 这里展示一个重载方法的示例。
 
@@ -47,7 +47,7 @@ a String instance in in Caller
 {% endhighlight %}
 在上面的代码中，call方法存在两个重载的实现，一个是接收Object类型的对象作为参数，另一个则是接收String类型的对象作为参数。str是一个String对象，所有接收String类型参数的call方法会被调用。而这里的绑定就是在编译时期根据参数类型进行的静态绑定。
 
-###验证
+###  验证
 
 光看表象无法证明是进行了静态绑定，使用javap发编译一下即可验证。
 
@@ -111,7 +111,7 @@ a String instance in SubCaller
 {% endhighlight %}
 上面的代码，Caller中有一个call方法的实现，SubCaller继承Caller，并且重写了call方法的实现。我们声明了一个Caller类型的变量callerSub，但是这个变量指向的时一个SubCaller的对象。根据结果可以看出，其调用了SubCaller的call方法实现，而非Caller的call方法。这一结果的产生的原因是因为在运行时发生了动态绑定，在绑定过程中需要确定调用哪个版本的call方法实现。
 
-###验证
+###  验证
 
 使用javap不能直接验证动态绑定，然后如果证明没有进行静态绑定，那么就说明进行了动态绑定。
 
@@ -144,7 +144,7 @@ public class TestMain {
 
 正如上面的结果，18: invokevirtual #6 // Method TestMain$Caller.call:(Ljava/lang/String;)V这里是TestMain$Caller.call而非TestMain$SubCaller.call，因为编译期无法确定调用子类还是父类的实现，所以只能丢给运行时的动态绑定来处理。
 
-###当重载遇上重写
+###  当重载遇上重写
 
 下面的例子有点变态哈，Caller类中存在call方法的两种重载，更复杂的是SubCaller集成Caller并且重写了这两个方法。其实这种情况是上面两种情况的复合情况。
 
@@ -187,7 +187,7 @@ public class TestMain {
 22:30 $ java TestMain
 a String instance in in SubCaller
 {% endhighlight %}
-###验证
+### 验证
 
 由于上面已经介绍，这里只贴一下反编译结果啦
 
