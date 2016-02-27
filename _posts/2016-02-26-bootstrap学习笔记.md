@@ -9,7 +9,7 @@ some notes on the way studying Bootstrap.
 
 一些关于bootstrap框架的笔记
 ---------------------------
-- 基本的css类名
+- **基本的css类名**
 
 	1. 强调类都是用颜色来表示强调的：
 		- .text-muted
