@@ -13,7 +13,7 @@ category: "other"
 
 　　2015年4月15日到2016年3月6日，11个月了，我并没有成长什么。学识、技能上对工作来说没有长进，为人做事没有学到什么，工作经验的话这个真拿不出手，真是太失败了！
 
-　　就我个人而言，学习了web前端的一些东西，HTML,CSS,JAVASCRIPT,JQUERY,BOOTSTRAP,ANGULARJS,NODEJS,JSP;其它语言，学习了PHP,JAVA,.NET;同时学习了MYSQL,ORACLE,ANDROID开发，学会使用GITHUB，并用来搭建自己的博客系统;对于PS更精通了，也会CORELDRAW了，平面设计的制作流程也熟悉了……等等吧，也算是丰盛的很呢！
+　　就我个人而言，学习了web前端的一些东西，HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, ANGULARJS, NODEJS, JSP;其它语言，学习了PHP, JAVA, .NET;同时学习了MYSQL, ORACLE, ANDROID开发，学会使用GITHUB，并用来搭建自己的博客系统;对于PS更精通了，也会CORELDRAW了，平面设计的制作流程也熟悉了……等等吧，也算是丰盛的很呢！
 
 　　**但是，这些远远不够啊！对实际我要找工作却帮助不大！**
 
