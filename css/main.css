@@ -67,22 +67,23 @@ a         { color: #91736b; text-decoration: none; }
     display: block;
     width: 72px;
     height: 104px;
-    font-size: 38px;
+/*    font-size: 38px;
     line-height: 100px;
     vertical-align: middle;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.9);
-    background: url(../images/logo.jpg) no-repeat -72px 0;
-    -webkit-transition: color 200ms ease-in-out;
+    color: rgba(255, 255, 255, 0.9);*/
+    /*background: url(../images/logo.jpg) no-repeat -72px 0;*/
+    background: url(../images/logo-s.jpg) no-repeat;
+/*    -webkit-transition: color 200ms ease-in-out;
     -moz-transition: color 200ms ease-in-out;
     -ms-transition: color 200ms ease-in-out;
     -o-transition: color 200ms ease-in-out;
-    transition: color 200ms ease-in-out;
+    transition: color 200ms ease-in-out;*/
 }
-.logo a:hover {
+/*.logo a:hover {
     color: rgba(255, 255, 255, 0.7);
     background-position: 0 0;
-}
+}*/
 .nav {
     width: 610px;
     padding-top: 82px;
